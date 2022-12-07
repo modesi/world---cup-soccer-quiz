@@ -1,0 +1,26 @@
+# This is a simple quiz about Soccer
+
+print("Let's play a quiz about Soccer!")
+
+# Question 1
+q1 = "What is the highest governing body of football? \n(a) FIFA \n(b) UEFA \n(c) CONCACAF \n(d) AFC \n"
+print(q1)
+answer1 = input("Type the letter of your answer: ")
+
+if answer1 == "a":
+    print("Correct!")
+else:
+    print("Incorrect. The correct answer is (a) FIFA.")
+
+# Question 2
+q2 = "Which country won the first FIFA World Cup? \n(a) Brazil \n(b) Italy \n(c) Uruguay \n(d) Germany \n"
+print(q2)
+answer2 = input("Type the letter of your answer: ")
+
+if answer2 == "c":
+    print("Correct!")
+else:
+    print("Incorrect. The correct answer is (c) Uruguay.")
+
+# Question 3
+q3 = "What is the most popular sport in the world? \n(a) Baseball \n
